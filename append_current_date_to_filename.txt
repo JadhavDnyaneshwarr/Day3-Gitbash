@@ -3,14 +3,20 @@
 
 2).
 	$ ls
+
+3).	for files in `ls *.txt` 
+	do
+		nameOfFile=`echo $files | awk -F. '{print $1}'`
+		echo $nameOfFile; 
+	done
 	
-3).
+4).
 	$ date
 
-4).
+5).
 	$ cp abc.log.1 abc-01122022.log
 
-5).
+6).
 	$ cp def.log.1 def-01122022.log
 	$ cp ghi.log.1 ghi-01122022.log
 	$ cp jkl.log.1 jkl-01122022.log

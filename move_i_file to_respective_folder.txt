@@ -4,16 +4,22 @@
 
 ans-	abc.txt  def.txt  ghi.txt  jkl.txt
 
-3).	$ mkdir abc/ def/ ghi/ jkl/
+3).	for files in `ls *.txt` 
+	do
+		nameOfFile=`echo $files | awk -F. '{print $1}'`
+		echo $nameOfFile; 
+	done
 
-4).	$ mv abc.txt abc/
+4).	$ mkdir abc/ def/ ghi/ jkl/
+
+5).	$ mv abc.txt abc/
 	$ mv def.txt def/
 	$ mv ghi.txt ghi/
 	$ mv jkl.txt jkl/
 	$ ls
 ans-	abc/  def/  ghi/  jkl/
 
-5).	$ ls | find . -name "*.txt"
+6).	$ ls | find . -name "*.txt"
 ans-	./abc/abc.txt
 	./def/def.txt
 	./ghi/ghi.txt
