@@ -1,0 +1,22 @@
+1).	$ touch abc.txt def.txt ghi.txt jkl.txt
+
+2).	$ ls
+
+ans-	abc.txt  def.txt  ghi.txt  jkl.txt
+
+3).	$ mkdir abc/ def/ ghi/ jkl/
+
+4).	$ mv abc.txt abc/
+	$ mv def.txt def/
+	$ mv ghi.txt ghi/
+	$ mv jkl.txt jkl/
+	$ ls
+ans-	abc/  def/  ghi/  jkl/
+
+5).	$ ls | find . -name "*.txt"
+ans-	./abc/abc.txt
+	./def/def.txt
+	./ghi/ghi.txt
+	./jkl/jkl.txt
+
+	

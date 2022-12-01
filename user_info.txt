@@ -1,0 +1,20 @@
+1).
+	$ mkdir etc/
+	$ cd etc/
+	$ mkdir 'password file'/
+	$ cd 'password file'/
+	$ pwd
+ans-	/d/bridgelabz/day_3/etc/password file
+
+2).
+
+	$ pwd | awk '{print $1}'
+ans-	/d/bridgelabz/day_3/etc/password
+
+3).
+
+	$ pwd | awk '{print $2}'
+ans-	filr
+
+
+	

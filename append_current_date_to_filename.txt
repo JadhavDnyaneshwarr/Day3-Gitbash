@@ -1,0 +1,18 @@
+1).
+	$ touch abc.log.1 def.log.1 ghi.log.1 jkl.log.1 mno.log.1
+
+2).
+	$ ls
+	
+3).
+	$ date
+
+4).
+	$ cp abc.log.1 abc-01122022.log
+
+5).
+	$ cp def.log.1 def-01122022.log
+	$ cp ghi.log.1 ghi-01122022.log
+	$ cp jkl.log.1 jkl-01122022.log
+	$ cp mno.log.1 mno-01122022.log
+	
